@@ -5,7 +5,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine(ReverseOnlyLetters("7_28]"));          // Output: "dc-ba"
+        Console.WriteLine(ReverseOnlyLetters("7_28]"));          // Output: "7_28]"
+        Console.WriteLine(ReverseOnlyLetters("ab-cd"));          // Output: "dc-ba"
         Console.WriteLine(ReverseOnlyLetters("a-bC-dEf-ghIj"));  // Output: "j-Ih-gfE-dCba"
         Console.WriteLine(ReverseOnlyLetters("Test1ng-Leet=code-Q!")); // Output: "Qedo1ct-eeLg=ntse-T!"
     }
